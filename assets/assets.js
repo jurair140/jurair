@@ -77,34 +77,92 @@ export const assets = {
 };
 
 export const workData = [
+  {
+    title: 'Frontend project',
+    description: 'Deepseek AI',
+    bgImage: '/work-1.png',
+    link: 'https://deepseek-kappa-seven.vercel.app',
+  },
+  {
+    title: 'LEATHERZ',
+    description: 'Ecomerce for a leather company',
+    bgImage: '/work-2.png',
+    link: 'https://leatherz.vercel.app',
+  },
+  {
+    title: 'ToDo App',
+    description: 'modern ToDo app highlighting CRUD operations',
+    bgImage: '/work-3.png',
+    link: 'https://jurair140.github.io/To-DO/',
+  },
+  {
+    title: 'BestLook',
+    description: 'Website for a salon',
+    bgImage: '/work-4.png',
+    link: 'https://jurair140.github.io/bestland2/',
+  },
+  {
+    title: 'Project management',
+    description: 'Full Stack project management tool',
+    bgImage: '/work-5.png',
+    link: 'https://project-fair-ebon-three.vercel.app',
+  },
+  {
+    title: 'PVS institute',
+    description: 'Website for an educational institute',
+    bgImage: '/work-6.png',
+    link: 'https://jurair140.github.io/pvs3',
+  },
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+    title: 'Belly Gym',
+    description: 'Website for a gym',
+    bgImage: '/work-7.png',
+    link: 'https://jurair140.github.io/bellygym',
+  },
+{
+    title: 'Coxal Trading',
+    description: 'Website for a trading company',
+    bgImage: '/work-8.png',
+    link: 'https://jurair140.github.io/coxal-trading',
+  },
+  {
+    title: 'BestLand',
+    description: 'Website for a construction company',
+    bgImage: '/work-9.png',
+    link: 'https://jurair140.github.io/bestland/',
+  },
+   {
+    title: 'Ahmed Yahya Bin Musa',
+    description: 'Website for a hardware and wiring shop',
+    bgImage: '/work-10.png',
+    link: 'https://jurair140.github.io/ahmedyahyabinmusa',
+  },
 ]
 
+
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+  {
+    icon: assets.web_icon,
+    title: 'Web Design',
+    description: 'Creating visually appealing, user-friendly websites tailored to your brand and business goals. Our web design ensures responsive layouts, intuitive interfaces, and seamless user journeys.',
+  },
+  {
+    icon: assets.mobile_icon,
+    title: 'Web Development',
+    description: 'We build scalable, high-performance websites using modern technologies like React.js, Node.js, and Express. From landing pages to complex platforms, we handle it all.',
+  },
+  {
+    icon: assets.ui_icon,
+    title: 'E-commerce Web Application',
+    description: 'Developing custom e-commerce platforms with features like user authentication, payment gateway integration, product management, and order tracking to drive your online business.',
+  },
+  {
+    icon: assets.graphics_icon,
+    title: 'Project Management',
+    description: 'Offering project planning, agile development practices, client collaboration, and delivery tracking to ensure your digital projects are completed on time and exceed expectations.',
+  },
+];
+
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, Node js, Express js' },
